@@ -1,0 +1,51 @@
+.banner {
+    img {
+        width: 100%;
+    }
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 5rem;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--heading);        
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--heading)
+    }
+
+    .info {
+        margin-top: 1rem;
+        color: var(--info);
+        display: flex;
+                
+        time {
+            display: flex;
+            align-items: center;            
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 2rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .contentContainer {
+        h2 {
+            padding: 2.5rem 0;
+        }
+
+        div {
+            color: var(--info);
+        }
+    }    
+}

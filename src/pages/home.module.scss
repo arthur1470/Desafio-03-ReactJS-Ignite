@@ -1,1 +1,51 @@
-// TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;        
+    padding: 0 5rem;
+}
+
+.postContent {        
+    & + div {
+        margin-top: 3rem;
+    }
+
+    strong {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--heading);
+    }
+
+    p {
+        color: var(--body);
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    
+    .info {
+        margin-top: 1rem;
+        color: var(--info);
+        display: flex;
+        font-size: 0.8rem;
+                
+        time {
+            display: flex;
+            align-items: center;            
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 2rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.loadMore {    
+    display: block;
+    margin: 2rem 0;
+    color: var(--highlight);
+    font-weight: 600;
+    font-size: 1rem;
+}
